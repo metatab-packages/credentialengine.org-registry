@@ -14,8 +14,8 @@ Version.Major,1
 Version.Minor,1
 Version.Patch,1
 Created,2023-10-18T22:35:09
-Modified,2023-10-18T22:35:10
-Giturl,https://github.com/CivicKnowledge/cmech_data.git
+Modified,2023-10-18T22:36:10
+Giturl,https://github.com/metatab-packages/credentialengine.org-registry.git
 ""
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
