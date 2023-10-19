@@ -1,0 +1,687 @@
+{
+    "envelope_community": "ce_registry",
+    "envelope_id": "39934372-a196-45a4-a5c5-6be7b2a5eef1",
+    "envelope_ceterms_ctid": "ce-cb03cad3-66d2-43da-b249-6a54be7692e1",
+    "envelope_ctdl_type": "ceterms:LearningOpportunityProfile",
+    "envelope_type": "resource_data",
+    "envelope_version": "1.0.0",
+    "decoded_resource": {
+        "@context": "https://credreg.net/ctdl/schema/context/json",
+        "@id": "https://credentialengineregistry.org/graph/ce-cb03cad3-66d2-43da-b249-6a54be7692e1",
+        "@graph": [
+            {
+                "@id": "https://credentialengineregistry.org/resources/ce-cb03cad3-66d2-43da-b249-6a54be7692e1",
+                "@type": "ceterms:LearningOpportunityProfile",
+                "ceterms:ctid": "ce-cb03cad3-66d2-43da-b249-6a54be7692e1",
+                "ceterms:name": {
+                    "en-US": "Computer Science Program at Texas Luthern University"
+                },
+                "ceterms:ownedBy": [
+                    "https://credentialengineregistry.org/resources/ce-08a0926e-9e62-4bfa-b32f-e16356cf9f08"
+                ],
+                "ceterms:subject": [
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:targetNodeName": {
+                            "en-US": "algorithms"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:targetNodeName": {
+                            "en-US": "computer architecture"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:targetNodeName": {
+                            "en-US": "data structures"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:targetNodeName": {
+                            "en-US": "mathematics"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:targetNodeName": {
+                            "en-US": "operating systems and networking"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:targetNodeName": {
+                            "en-US": "programming languages"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:targetNodeName": {
+                            "en-US": "software design"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:targetNodeName": {
+                            "en-US": "statistics"
+                        }
+                    }
+                ],
+                "ceterms:teaches": [
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-31c49e83-aa5c-4021-acf2-a0a7453ed834",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Analyze and design complex software systems"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-24d5e874-31cc-4a7e-9c12-37fa05c47ac7",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Complete and present a group project."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-32441d9b-19ee-4fd4-930c-801968f18a2b",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Convert between decimal, binary, octal, and hexadecimal number systems"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-a5ba5b52-5c74-40c9-b0be-3e7d53cf7f5c",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Design and build small combinational logic circuits"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-41da8e58-23d4-4fa5-be3a-7745cc4a7c05",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Design and build small sequential logic circuits"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-c882f454-598b-4045-a7cb-f6e3f4dc854b",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Discuss the responsibilities of being a computer professional"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-654d3031-8781-4b28-93a4-86bc105bdef0",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain and use as appropriate the major computer science data structures including stacks, queues, linked lists, sets, bags, trees, binary search trees, heaps, hash tables, and graphs."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-f725f14d-c723-4b26-a42b-1dadeb934e26",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain appropriate algorithms for searching, sorting, the closest pair problem, the convex hull problem, string matching, the fake coin problem, minimum spanning trees, shortest paths, maximum flows, and the stable marriage problem."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-f805d4fd-fa2d-4ce6-93eb-dbefdbeed329",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain the basic organization and workings of the Internet"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-9566323b-f0e9-4459-ab89-2817e6a7423b",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain the basic principles and components of a computer architecture including data representation, memory organization, instruction processing, and instruction formats."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-cd167503-f818-4aa3-817d-52f0e10d2761",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain the basic principles and components of an operating system including memory management, processor management, process management, and device management."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-f21c1036-ef1f-4b93-b33f-569919932bf6",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain the fundamental issues in and approaches to developing large software systems"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-209a9b65-4350-4f16-958e-2cdde5a4899f",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain the fundamental issues, concepts, and principles in computer and network security."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-0b991728-9f08-485b-9c02-f7c2414e66af",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain the layers of the IP protocol stack"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-758ca9b0-12b7-4bea-9b48-61836e5dde9d",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explain various network protocols including TCP, IP, UDP, DNS, Ethernet, and 802.11"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-79993943-8f22-4acf-85d6-ecd4821bddff",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Explore JavaScript capabilities - client side."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-1e643f46-122e-4aab-9ea6-7ac96e61f083",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Give presentations appropriate to the software development process"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-9c9f0d48-a45e-4b98-b686-39a162956dc9",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Given a design for a problem of small to moderate size, implement the design using the Python programming language."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-2c32db9f-2797-4d6a-b51d-d9396f5821d0",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Given the design for a problem of small to moderate size, implement the design using the Java programming language"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-331c3036-f616-487c-a9e7-46ebf3a2074b",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Know and use the most common HTML Tags."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-7f8bb8f9-b2d2-4fc4-8143-c89d0f7086d7",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Participate as an effective member of a software development team"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-52ad459b-689b-47bd-8fd9-d3ff76b1f0d4",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Understand and use"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-e62c0a16-9935-4059-8070-045f756fdf8b",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Understand and use DOM"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-711fa0aa-9e46-4dbd-8ed2-ffce7bcc4bde",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Understand fundamental database concepts and be able to use, design, and implement Access& MySQL databases."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-dc1e40ff-86e1-429b-91da-dacbd8754058",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Understand Loops, Arrays, and Objects."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-0e95eb71-c34a-4264-90eb-e3481e0999dd",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Understand the importance of using CSS (Cascade Style Sheets) in a web site."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-8ace5946-7b11-43f4-9f68-73d58de31e43",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Understand the importance of using scripting languages to create dynamic web sites"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-86a6b32a-7f9a-45a9-ae6a-21500a972f13",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Use and understand the UNIX file system and common commands"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-ab69dc63-6ba1-4a72-bbdc-04639e856c61",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Use basic Unix and vi commands."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-97efc99b-1565-4544-985a-b079aa4e6ec5",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Use Boolean algebra and Karnaugh maps for logic simplification"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-dbb76cff-f8e3-48d7-8a73-6cd615fe7fcc",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Write documents appropriate to the software development process"
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-a734f01a-24e4-4e4f-a124-6f6adb32367f",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Write Java programs that use input and output, decision structures, loops, methods, classes and objects, arrays, files, exceptions, threads, and basic Swing graphics."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-1dfe79c2-b9ec-4e0f-a790-87ff4ce920f4",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Write Python programs that use input and output, functions, decision structures, loops, modules, classes and objects, files, exceptions, strings, and lists."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-6c0bda65-cefb-4211-8177-4fa86c216025",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Write simple programs in assembly language."
+                        }
+                    },
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credentialengineregistry.org/resources/ce-ac7db894-c9d0-4cb5-9173-e3d28db94800",
+                        "ceterms:targetNode": "https://credentialengineregistry.org/resources/ce-5a78d9c3-3a52-4541-b2e6-ce9fc07786f8",
+                        "ceterms:frameworkName": {
+                            "en-US": "Bachelor in Computer Science Learning Outcomes"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Write simple scripts using the Bourne-Again Shell (Bash) and possibly Perl."
+                        }
+                    }
+                ],
+                "ceterms:requires": [
+                    {
+                        "@type": "ceterms:ConditionProfile",
+                        "ceterms:name": {
+                            "en-US": "Major in Computer Science (BS):"
+                        },
+                        "ceterms:assertedBy": [
+                            "https://credentialengineregistry.org/resources/ce-08a0926e-9e62-4bfa-b32f-e16356cf9f08"
+                        ],
+                        "ceterms:description": {
+                            "en-US": "36 semester hours including CSCI 238, 239, 332, 335, 337, 434, and 437, 15 additional hours in computer science (12 hours upper-division)."
+                        }
+                    }
+                ],
+                "ceterms:offeredBy": [
+                    "https://credentialengineregistry.org/resources/ce-08a0926e-9e62-4bfa-b32f-e16356cf9f08"
+                ],
+                "ceterms:inLanguage": [
+                    "en"
+                ],
+                "ceterms:availableAt": [
+                    {
+                        "@type": "ceterms:Place",
+                        "ceterms:name": {
+                            "en-US": "Texas Lutheran University"
+                        },
+                        "ceterms:latitude": 29.5720802,
+                        "ceterms:longitude": -97.9850616,
+                        "ceterms:postalCode": "78155",
+                        "ceterms:addressRegion": {
+                            "en-US": "Texas"
+                        },
+                        "ceterms:streetAddress": {
+                            "en-US": "1000 West Court Street"
+                        },
+                        "ceterms:addressCountry": {
+                            "en-US": "United States"
+                        },
+                        "ceterms:addressLocality": {
+                            "en-US": "Seguin"
+                        }
+                    }
+                ],
+                "ceterms:description": {
+                    "en-US": "We believe the analysis of problems, the design of detailed algorithms, and the close attention to detail that the whole subject demands are excellent training for many of the challenges faced by people today.\n\n Computer Science students study in the areas of algorithms, programming languages, data structures, software design, computer architecture, operating systems and networking. Several mathematics and statistics courses are required.\n\nThe computer science program at TLU offers an innovative approach to this highly technical field by encouraging close cooperation with the disciplines that make up the mathematics, computer science and information systems department. Students are encouraged to apply analytical skills and independent, out-of-the-box thinking to real-world applications while in the classroom. \n\nTexas Lutheran University's computer science major gives students the technical skills and tools necessary to pursue truth and knowledge in their future endeavors. Computer science schools require immense discipline and attention to detail, skills that prepare students for careers in this fast-paced, constantly evolving economy. Our skilled faculty works tirelessly to create an environment where students feel supported and part of a team.\n\nTLU's computer science program offers courses in software design, computer architecture, operating systems, data structures, networking, programming languages, and algorithms, allowing students a vast array of choices when deciding on which area of the tech sector they wish to focus.\n\nMany students in computer science and information systems opt for workstudy positions with the university's information technology department. Students work on upgrading technology and software across campus and even develop applications for university administration projects, department needs or local businesses.\n\nStudents in the computer science school may also work alongside faculty as tutors or graders, and they have the opportunity to pursue an internship in the community. Finally, students may join the Association for Computing Machinery, which allows them to participate in ACM-related events and conferences."
+                },
+                "ceterms:deliveryType": [
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://credreg.net/ctdl/terms/Delivery",
+                        "ceterms:targetNode": "deliveryType:InPerson",
+                        "ceterms:frameworkName": {
+                            "en-US": "Delivery"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "In-Person Only"
+                        }
+                    }
+                ],
+                "ceterms:estimatedCost": [
+                    {
+                        "@type": "ceterms:CostProfile",
+                        "ceterms:name": {
+                            "en-US": "Estimated Costs to Attend TLU"
+                        },
+                        "ceterms:price": 13955.0,
+                        "ceterms:currency": "US Dollar",
+                        "ceterms:costDetails": "http://www.tlu.edu/admissions/financial-aid/estimated-cost-calculator",
+                        "ceterms:description": {
+                            "en-US": "Use the TLU Estimated Cost Calculator to include potential fees based on planned enrollment, other services, residence hall room, meal plan, optional charges such as Private Music Lessons, Lab Fees,  Aviation Fees, etc.   Include scholarships, grants and student loans and find out about other financing options."
+                        },
+                        "ceterms:directCostType": {
+                            "@type": "ceterms:CredentialAlignmentObject",
+                            "ceterms:framework": "https://credreg.net/ctdl/terms/CostType",
+                            "ceterms:targetNode": "costType:Tuition",
+                            "ceterms:frameworkName": {
+                                "en-US": "CostType"
+                            },
+                            "ceterms:targetNodeName": {
+                                "en-US": "Tuition"
+                            }
+                        },
+                        "ceterms:paymentPattern": {
+                            "en-US": "Per Semester"
+                        }
+                    }
+                ],
+                "ceterms:isRequiredFor": [
+                    {
+                        "@type": "ceterms:ConditionProfile",
+                        "ceterms:name": {
+                            "en-US": "Computer Science Program at Texas Luthern University"
+                        },
+                        "ceterms:description": {
+                            "en-US": "This learning opportunity is required for the credential: 'Bachelor of Science in Computer Science'."
+                        },
+                        "ceterms:targetCredential": [
+                            "https://credentialengineregistry.org/resources/ce-605cdd39-b340-43b5-88bd-d57309228111"
+                        ]
+                    }
+                ],
+                "ceterms:subjectWebpage": "http://www.tlu.edu/academics/programs/computer-science",
+                "ceterms:estimatedDuration": [
+                    {
+                        "@type": "ceterms:DurationProfile",
+                        "ceterms:description": {
+                            "en-US": "Pending if full time/part time"
+                        },
+                        "ceterms:maximumDuration": "P6Y",
+                        "ceterms:minimumDuration": "P4Y"
+                    }
+                ],
+                "ceterms:instructionalProgramType": [
+                    {
+                        "@type": "ceterms:CredentialAlignmentObject",
+                        "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+                        "ceterms:targetNode": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=56&cip=11.0701",
+                        "ceterms:codedNotation": "11.0701",
+                        "ceterms:frameworkName": {
+                            "en-US": "Classification of Instructional Programs"
+                        },
+                        "ceterms:targetNodeName": {
+                            "en-US": "Computer Science"
+                        },
+                        "ceterms:targetNodeDescription": {
+                            "en-US": "A program that focuses on computer theory, computing problems and solutions, and the design of computer systems and user interfaces from a scientific perspective. Includes instruction in the principles of computational science, computer development and programming, and applications to a variety of end-use situations."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "resource_format": "json",
+    "resource_encoding": "jwt",
+    "resource_public_key": "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAohB/AIc8KZPCuHCArhSbQbFf3HDyPhu8NoHfrHR4QRTSpny2N9o0\nBUlkwsV+Bji6djJmVpEnF91VP3XnJJTP2+7R4s1wDHC1lV3zVYGAEzS/nIGN3sPf\nNRpDRfdUf439VE2/Jav8YoUbIRYmBELgbJIl/YZ1cjZWnZ86cpgBJPHPDe6JLQho\n1zmvaHVoOoST1H63sqDG5pzxQlTM63R85H7otMPXhPN1uH7JVxWiPhf6JBeVxsFZ\nIiTviGW3/EEPbwJurVYux87uTQpe7jnDXQTfaq1qe4M24e+f7KXij2LoenFSxkKy\nVPCHEcXaDEb2ru486qlof3mzjtHj0bDuIwIDAQAB\n-----END RSA PUBLIC KEY-----\n",
+    "publisher_id": "e8aa2734-5f6d-473a-9cf7-bc184439a1ac",
+    "secondary_publisher_id": null,
+    "resource_publish_type": "primary",
+    "node_headers": {
+        "resource_digest": "g7Cmphrdai9uEnOBnS5jYLeF1l797tWKSy/XmKGpK5Y=",
+        "revision_history": [
+            {
+                "head": false,
+                "event": "create",
+                "created_at": "2017-11-22 02:55:17 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/98"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2017-11-22 03:05:57 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/3766"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2017-12-28 07:23:30 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/6325"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2018-02-26 06:16:14 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/9238"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2018-05-17 18:53:40 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/9993"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2018-06-12 22:11:50 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/15924"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2018-10-16 23:09:32 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/33516"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2019-06-03 21:41:08 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/56294"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2020-02-18 04:56:08 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/85792"
+            },
+            {
+                "head": false,
+                "event": "update",
+                "created_at": "2020-12-24 17:21:22 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1/revisions/85793"
+            },
+            {
+                "head": true,
+                "event": "update",
+                "created_at": "2020-12-24 17:21:30 UTC",
+                "actor": null,
+                "url": "/ce-registry/envelopes/39934372-a196-45a4-a5c5-6be7b2a5eef1"
+            }
+        ],
+        "created_at": "2017-11-22 02:55:17 UTC",
+        "updated_at": "2020-12-24 17:21:30 UTC",
+        "deleted_at": null
+    },
+    "owned_by": "ce-08a0926e-9e62-4bfa-b32f-e16356cf9f08",
+    "published_by": "ce-08a0926e-9e62-4bfa-b32f-e16356cf9f08",
+    "changed": false,
+    "updated_at": "2020-12-24T17:21:30.854Z",
+    "last_verified_on": "2020-12-24"
+}
