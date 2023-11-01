@@ -2,33 +2,33 @@ Declare,metatab-latest
 Title,Select tables from the Credential Engine Registry
 Description,Tables of data extracted from the Credential Engin JSON-LD file
 Identifier,a775cb33-e53b-49e9-83c6-0f297ad37ce4
-Name,credentialengine.org-registry-1.1.1
+Name,credentialengine.org-registry-1.1.2
 Dataset,registry
 Origin,credentialengine.org
 Time,
 Space,
 Grain,
 Variant,
-Version,1.1.1
+Version,1.1.2
 Version.Major,1
 Version.Minor,1
 Version.Patch,2
 Created,2023-10-18T22:35:09
-Modified,2023-10-19T19:27:33
+Modified,2023-10-19T20:45:50
 Giturl,https://github.com/metatab-packages/credentialengine.org-registry.git
-
+""
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
-
+""
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
-
+""
 Section,References,Name,Description,
 Reference,http://ds.civicknowledge.org.s3.amazonaws.com/credentialengine.org/ce_registry_1697667117_ddfe24e4dcbf402e2cb741986b6676fc.zip,registry_source,Full download of CE registrry data,
-
+""
 Section,Resources,Name,Description,
 Datafile,notebooks/program_titles.ipynb#df,program_titles,Program titles for programs linked to CIP codes,
-
+""
 Section,Schema,DataType,AltName,Description,Has_Codes
 Table,program_titles,,,,
 Table.Column,ctid,text,,,
